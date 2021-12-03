@@ -1,0 +1,66 @@
+
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: white;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: lightgray;
+    border-radius: 0;
+    border: 30px;
+    height: 100px;
+  }
+      
+  .navbar-brand {
+    padding: 25px;
+  }
+
+  button a:
+
+   h1{
+    font-size: 1.7em;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 50px;
+    margin-top: 65px;
+  }
+
+  h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: black;
+  }
+
+  .navbar-brand h1 {
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+   // text-shadow: 1px 1px 1px #222;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  section {
+      height: 1000 px;
+      background-color: lightblue;
+      color: black;
+      
+  }
+
+  section p {
+    padding: auto;
+    margin: 40px;
+    /*margin-left: 40px;
+    margin-top: 40px;*/
+    margin-bottom: 40px;
+  }
+
+  hr{
+      width: 60%;
+  }
