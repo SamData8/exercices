@@ -18,8 +18,6 @@ body {
     padding: 25px;
   }
 
-  button a:
-
    h1{
     font-size: 1.7em;
     font-weight: bold;
@@ -55,10 +53,12 @@ body {
 
   section p {
     padding: auto;
-    margin: 40px;
-    /*margin-left: 40px;
-    margin-top: 40px;*/
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
     margin-bottom: 40px;
+   /* width: 85%;*/
+    border-width: 20px;
   }
 
   hr{
