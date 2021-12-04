@@ -1,66 +1,114 @@
 
+
 body {
-    font-size: 16px;
-    color: #fff;
-    background-color: white;
-    font-family: 'Oxygen', sans-serif;
-  }
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: lightgray;
+  border-radius: 0;
+  border: 20px;
+  height: 80px;
+}
+    
+.navbar-brand {
+  padding: 15px;
+}
+
+  #drop-down-menu {
+  position:absolute;
+  top: 50;
+  right:0;
+  width: 100%;
   
-  /** HEADER **/
-  #header-nav {
-    background-color: lightgray;
-    border-radius: 0;
-    border: 30px;
-    height: 100px;
   }
-      
+
+  #nav-list li{
+     background-color:lightgoldenrodyellow;
+     color:lightslategrey;
+     border-color: black;
+  }
+
+  #nav-list li a:hover, #nav-list li a:focus {
+  background-color: gold;
+  }
+
+  hr {
+  color: black;
+  }
+
+ #maincontent h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 25px;
+  margin-top: 5;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: black;
+}
+
+.navbar-brand h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 25px;
+  margin-top: 5;
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+section {
+    height: 1000 px;
+    background-color: lightblue;
+    color: black;
+    
+}
+
+section p {
+  padding: auto;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+ /* width: 85%;*/
+  border-width: 20px;
+}
+
+hr{
+    width: 60%;
+}
+
+@media (max-width: 767px) {
+  /* Header */
   .navbar-brand {
-    padding: 25px;
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Company name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
   }
 
-   h1{
-    font-size: 1.7em;
-    font-weight: bold;
-    color: black;
-    margin-bottom: 50px;
-    margin-top: 65px;
-  }
+  #maincontent h1 {
+    margin-bottom: 25px;
+    margin-top: 100px;
 
-  h2 {
-    font-size: 1.3em;
-    font-weight: bold;
-    color: black;
-  }
-
-  .navbar-brand h1 {
-    font-family: 'Lora', serif;
-    text-transform: uppercase;
-   // text-shadow: 1px 1px 1px #222;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    line-height: .75;
-  }
-  .navbar-brand a:hover, .navbar-brand a:focus {
-    text-decoration: none;
-  }
-
-  section {
-      height: 1000 px;
-      background-color: lightblue;
-      color: black;
-      
-  }
-
-  section p {
-    padding: auto;
-    margin-right: 40px;
-    margin-left: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-   /* width: 85%;*/
-    border-width: 20px;
-  }
-
-  hr{
-      width: 60%;
+    
+    }
+    section p {
+      padding: auto;
+      margin-top: 50px;
+    }
   }
